@@ -89,15 +89,15 @@ function hero(){
   <section class="hero-slider" aria-label="Promociones destacadas">
 
     <div class="hero-slide hero-slide-1">
-    <img src="/Public/banners/forza-1.png" alt="Banner Forza">
+    <img src="/banners/forza-1.png" alt="Banner Forza">
 </div>
 
     <div class="hero-slide hero-slide-2">
-    <img src="/Public/banners/forza-2.jpg" alt="Banner Forza">
+    <img src="/banners/forza-2.jpg" alt="Banner Forza">
 </div>
 
     <div class="hero-slide hero-slide-3">
-   <img src="/Public/banners/klip-3.jpg" alt="Banner Klip">
+   <img src="/banners/klip-3.jpg" alt="Banner Klip">
 </div>
 
     <div class="hero-dots">
@@ -179,35 +179,35 @@ function home(){
 
   <div class="brand-logos">
     <a href="/marca/logitech" data-nav>
-      <img src="/public/brands/logitech_negro.png" alt="Logitech">
+      <img src="/brands/logitech_negro.png" alt="Logitech">
     </a>
 
     <a href="/marca/tp-link" data-nav>
-      <img src="/public/brands/tp-link-color.png" alt="TP-Link">
+      <img src="/brands/tp-link-color.png" alt="TP-Link">
     </a>
 
     <a href="/marca/forza" data-nav>
-      <img src="/public/brands/forza_color.png" alt="Forza">
+      <img src="/brands/forza_color.png" alt="Forza">
     </a>
 
     <a href="/marca/kingston" data-nav>
-      <img src="/public/brands/kingston_color.png" alt="Kingston">
+      <img src="/brands/kingston_color.png" alt="Kingston">
     </a>
 
     <a href="/marca/samsung" data-nav>
-      <img src="/public/brands/samsung_negro.png" alt="Samsung">
+      <img src="/brands/samsung_negro.png" alt="Samsung">
     </a>
 
     <a href="/marca/asus" data-nav>
-      <img src="/public/brands/asus_negro.png" alt="ASUS">
+      <img src="/brands/asus_negro.png" alt="ASUS">
     </a>
 
     <a href="/marca/lenovo" data-nav>
-      <img src="/public/brands/LENOVO_principal.png" alt="Lenovo">
+      <img src="/brands/LENOVO_principal.png" alt="Lenovo">
     </a>
 
     <a href="/marca/xiaomi" data-nav>
-      <img src="/public/brands/xiaomi-color.png" alt="Xiaomi">
+      <img src="/brands/xiaomi-color.png" alt="Xiaomi">
     </a>
   </div>
 </section>
@@ -260,3 +260,4 @@ if (thumb) {
 document.addEventListener('change',e=>{if(e.target.dataset.filter){filters[e.target.dataset.filter]=e.target.value;render()}});
 document.addEventListener('submit',e=>{if(e.target.matches('.search')){e.preventDefault();query=new FormData(e.target).get('q').trim();history.pushState({},'','/productos');render()}if(e.target.id==='checkout-form'){e.preventDefault();const f=new FormData(e.target),t=totals();const text=`Hola, quiero realizar este pedido: ${cartItems().map(p=>`${p.name} x${p.qty}`).join(', ')}. Total aproximado: ${money(t.total)}. Nombre: ${f.get('name')}. Teléfono: ${f.get('phone')}. Ciudad: ${f.get('city')}. Pago: ${f.get('payment')}.`;window.open(waLink(text),'_blank','noopener');}});
 addEventListener('popstate',render);render();
+

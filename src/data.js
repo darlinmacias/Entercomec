@@ -222,12 +222,12 @@ const categoryIcons = {
 const productImages = {
   
   'AU130FOR67': [
-    '/Public/products/FORZA/fsp112w.png',
-    '/Public/products/FORZA/fsp112w_2.png',
-    '/Public/products/FORZA/fsp112w_3.png',
-    '/Public/products/FORZA/fsp112w_4.png',
-    '/Public/products/FORZA/fsp112w_5.png',
-    '/Public/products/FORZA/fsp112w_6.png'
+    '/products/FORZA/fsp112w.png',
+    '/products/FORZA/fsp112w_2.png',
+    '/products/FORZA/fsp112w_3.png',
+    '/products/FORZA/fsp112w_4.png',
+    '/products/FORZA/fsp112w_5.png',
+    '/products/FORZA/fsp112w_6.png'
   ],
 };
 const productDetails = {

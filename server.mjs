@@ -29,7 +29,13 @@ createServer(async (req, res) => {
       pathname = pathname.slice(0, -1);
     }
 
-    let file = join(root, 'public', pathname);
+    let file;
+
+if (pathname.startsWith('/src/')) {
+  file = join(root, pathname);
+} else {
+  file = join(root, 'public', pathname);
+}
 
     // Si la ruta corresponde a una carpeta, intenta index.html
     try {

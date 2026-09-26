@@ -1,4 +1,4 @@
-import { STORE, money, waLink } from './config.js';
+﻿import { STORE, money, waLink } from './config.js';
 import { products, categories, brands, getProduct } from './data.js';
 
 const app = document.querySelector('#app');
@@ -23,7 +23,7 @@ const update = (id, n) => {
 };const cartItems=()=>cart.map(x=>({...products.find(p=>p.id===x.id),qty:x.qty})).filter(x=>x.id);
 const totals=()=>{const subtotal=cartItems().reduce((s,p)=>s+p.price*p.qty,0), iva=subtotal*STORE.iva; return {subtotal,iva,total:subtotal+iva};};
 const link = (path,label,cls='') => `<a class="${cls}" href="${path}" data-nav>${label}</a>`;
-const icon = p => `<div class="product-image" aria-label="Imagen de ${p.name}">${p.image?`<img src="${p.image}" alt="${p.name}" loading="lazy"/>`:`<><span>${p.icon}</span><small>Imagen demo</small></>`}</div>`;
+const icon = p => `<div class="product-image" aria-label="Imagen de ${p.name}">${p.image ? `<img src="${p.image}" alt="${p.name}" loading="lazy"/>` : `<div><span>${p.icon}</span><small>Imagen demo</small></div>`}</div>`;
 const price = p => `<div class="price">${p.oldPrice?`<s>${money(p.oldPrice)}</s>`:''}<strong>${money(p.price)}</strong>${p.oldPrice?`<em>-${Math.round((1-p.price/p.oldPrice)*100)}%</em>`:''}</div>`;
 const badge = status => `<span class="stock ${status==='Agotado'?'out':status==='Últimas unidades'?'low':''}">${status}</span>`;
 function productCard(p){return `<article class="product-card">${p.isNew?'<b class="corner">Nuevo</b>':''}${icon(p)}<div class="product-body"><p class="brand">${p.brand}</p><h3>${link('/producto/'+p.slug,p.name)}</h3><small>SKU ${p.sku}</small>${price(p)}${badge(p.status)}<div class="card-actions">${link('/producto/'+p.slug,'Ver producto','button ghost')}<a class="wa-mini" href="${waLink(`Hola, estoy interesado en el producto ${p.name}, SKU ${p.sku}.`)}" target="_blank" rel="noreferrer">WhatsApp</a></div></div></article>`}

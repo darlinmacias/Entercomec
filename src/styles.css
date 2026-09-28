@@ -1015,8 +1015,12 @@ border-top:1px solid rgba(255,255,255,.15);
 display:flex;
 }
 .site-header nav a{
-color:#fff;
+display:block;
+width:100%;
 padding:14px 20px;
+color:#fff;
+background:transparent !important;
+text-align:left;
 border-bottom:1px solid rgba(255,255,255,.08);
 }
 .site-header .category-nav{

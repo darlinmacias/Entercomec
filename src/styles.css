@@ -987,25 +987,29 @@ white-space: nowrap;
     justify-self: end;
   }
 
-  .site-header nav {
-    display: none;
-
-    grid-column: 1 / -1;
-
-    flex-direction: column;
-    align-items: stretch;
-
-    padding: 10px 0 4px;
-
-    gap: 0;
-
-    border-top: 1px solid rgba(255,255,255,0.15);
-  }
-
-  .site-header nav.open {
-    display: flex;
-  }
-
+  CSS
+.site-header nav {
+display:none;
+ 
+grid-column:1 / -1;
+ 
+flex-direction:column;
+align-items:stretch;
+ 
+padding:10px 0;
+ 
+gap:0;
+ 
+background:#173A70;
+ 
+border-top:1px solid rgba(255,255,255,.15);
+}
+.site-header nav.open a{
+color:#fff !important;
+display:block;
+padding:12px 10px;
+font-weight:700;
+}
   .site-header nav a {
     padding: 11px 4px;
   }

@@ -261,7 +261,7 @@ if (thumb) {
   document.querySelector('.filters')?.classList.toggle('shown');
 }
 if(action==='menu'){
-document.querySelector('header nav')?.classList.toggle('open');
+document.querySelector('.site-header nav')?.classList.toggle('open');
 }
 if(action==='detail-plus'||action==='detail-minus'){const p=getProduct(location.pathname.split('/').pop());const current=qty(p.id)||1;update(p.id,action==='detail-plus'?current+1:current-1)}});
 

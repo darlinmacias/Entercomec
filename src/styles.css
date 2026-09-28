@@ -1020,11 +1020,14 @@ display:flex;
 .site-header nav a{
 display:block;
 width:100%;
-padding:14px 20px;
-color:#fff;
+padding:16px 20px;
+color:#000;
 background:transparent !important;
 text-align:left;
-border-bottom:1px solid rgba(255,255,255,.08);
+text-decoration:none;
+margin:0;
+line-height:1.2;
+border-bottom:1px solid #e5e5e5;
 }
 .site-header .category-nav{
 overflow-x:auto;

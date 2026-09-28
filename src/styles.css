@@ -976,17 +976,27 @@ grid-area:logo;
 .site-header .cart{
 grid-area:cart;
 justify-self:end;
+margin-right:10px;
 }
  
 .site-header .menu{
+display:block !important;
+ 
 grid-area:menu;
-display:block;
+ 
 justify-self:end;
  
-background:none;
-border:0;
+width:40px;
+height:40px;
+ 
 color:#fff;
+background:transparent;
+border:0;
+ 
 font-size:28px;
+font-weight:700;
+ 
+z-index:9999;
 }
  
 .site-header .search{

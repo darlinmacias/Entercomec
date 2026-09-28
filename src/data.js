@@ -126,45 +126,49 @@ export const categories = [
 }));
 
 const rows = [
- ['Mouse inalámbrico M110','Logitech','GAM-910006','gaming','Mouse',16.9,22.9,'En stock',['silencioso','usb','ergonómico'],1,1,1],
- ['Teclado compacto K380','Logitech','GAM-K380','gaming','Teclados',42.5,null,'Últimas unidades',['bluetooth','multidispositivo'],1,1,0],
- ['Headset H151 estéreo','Logitech','AUD-H151','audio','Headsets',27.9,34.9,'En stock',['micrófono','3.5mm'],0,0,1],
- ['Router Archer C6','TP-Link','CON-ARCHC6','conectividad','Wi-Fi',58.9,69.9,'En stock',['wifi','dual band','gigabit'],1,0,1],
- ['Hub USB-C 7 en 1','UGREEN','CON-HUB7','conectividad','Hubs',39.9,null,'En stock',['usb-c','hdmi','lector sd'],1,1,0],
- ['Cable USB-C 100W','UGREEN','MOV-100W','movil','Cables',12.5,null,'En stock',['carga rápida','usb-c'],0,1,0],
- ['SSD NV3 1TB','Kingston','COM-NV31TB','computacion','Almacenamiento',79.9,96.9,'En stock',['nvme','pcie 4.0','1tb'],1,0,1],
- ['Memoria Fury 16GB DDR4','Kingston','COM-FURY16','computacion','Memorias',44.9,null,'Últimas unidades',['ddr4','3200mhz'],0,1,0],
- ['Monitor Eye Care 24”','ASUS','COM-VA24','computacion','Monitores',169.9,189.9,'En stock',['24 pulgadas','full hd','ips'],1,0,1],
- ['Laptop IdeaPad 15','Lenovo','COM-IP15','computacion','Laptops',649.9,null,'Próximamente',['15 pulgadas','ssd','oficina'],1,1,0],
- ['UPS NT-1011 1000VA','Forza','ENE-NT1011','energia','UPS',119.9,null,'En stock',['respaldo','1000va'],1,0,0],
- ['Supresor FSP-06','Forza','ENE-FSP06','energia','Supresores',22.9,null,'En stock',['6 tomas','protección'],0,0,0],
- ['Audífonos Redmi Buds 6','Xiaomi','AUD-RB6','audio','Audífonos',36.9,44.9,'En stock',['inalámbrico','bluetooth','estuche'],1,1,1],
- ['Parlante portátil Mini','Xiaomi','AUD-MINI','audio','Parlantes',29.9,null,'En stock',['bluetooth','portátil'],0,0,0],
- ['Cargador GaN 65W','Baseus','MOV-GAN65','movil','Cargadores',34.9,null,'En stock',['65w','usb-c','gan'],1,1,0],
- ['Adaptador USB-C a HDMI','UGREEN','CON-HDMI4K','conectividad','Adaptadores',19.9,null,'En stock',['4k','usb-c','hdmi'],0,0,0],
- ['Mousepad Control XL','HyperX','GAM-XL01','gaming','Mousepads',21.9,null,'En stock',['xl','antideslizante'],0,0,0],
- ['Control inalámbrico Nova','8BitDo','GAM-NOVA','gaming','Controles',49.9,59.9,'En stock',['bluetooth','pc','switch'],1,1,1],
- ['Cámara inteligente C200','TP-Link','SH-C200','smart-home','Seguridad',35.9,null,'En stock',['wifi','visión nocturna'],1,0,0],
- ['Bombilla Wi-Fi Tapo','TP-Link','SH-L510','smart-home','Iluminación inteligente',15.9,null,'En stock',['wifi','led','domótica'],0,1,0],
- ['Regulador automático 1200VA','Forza','ENE-FVR1200','energia','Reguladores',43.9,null,'Agotado',['1200va','protección'],0,0,0],
- ['Webcam Full HD C920','Logitech','AUD-C920','audio','Micrófonos',72.9,84.9,'En stock',['full hd','micrófono'],1,0,1],
- ['Fuente 650W Bronze','Corsair','COM-CX650','computacion','Fuentes de poder',89.9,null,'Últimas unidades',['650w','80 plus bronze'],0,0,0],
- ['Base para laptop ajustable','Nexstand','COM-K2','computacion','Accesorios',28.9,null,'En stock',['aluminio','ergonómica'],0,1,0],
- ['Protector de sobretensión FSP-112W','Forza','AU130FOR67','energia','Protección eléctrica',3.33,null,'Agotado',['1 toma','650 joules','110/220v','montaje en pared'],0,1,0],
- ['Regleta de potencia PS-001B','Forza','AU140FOR02','energia','Protección eléctrica',3.69,null,'En stock',['6 tomas','2200w','disyuntor','120/240v'],1,1,0],
- ['Protector de pared FWT-331USBC','Forza','AU130FOR31','energia','Protección eléctrica',9.03,null,'Agotado',['3 tomas','usb-a','usb-c','490 joules'],0,1,0],
- ['Protector con USB FSP-512USBW','Forza','AU130FOR25','energia','Protección eléctrica',12.33,null,'En stock',['5 tomas','2 usb','1200 joules','1540w'],1,1,0],
- ['Protector con USB FSP-612USBW','Forza','AU130FOR26','energia','Protección eléctrica',12.72,null,'En stock',['6 tomas','2 usb','1200 joules','1680w'],1,1,0],
- ['Protector de voltaje FVP-1201B Pack x2','Forza','FVP-1201B-PACK2','energia','Protección eléctrica',16.54,null,'En stock',['2 unidades','1800w','900 joules','1 salida'],0,1,0],
- ['Protector de voltaje FVP-1201B','Forza','FVP-1201B','energia','Protección eléctrica',11.00,null,'En stock',['1800w','900 joules','1 salida','giro 350°'],1,1,0],
- ['Protector de voltaje FVP-1201N','Forza','FVP-1201N','energia','Protección eléctrica',11.14,null,'En stock',['1800w','900 joules','1 salida','protección de red'],1,1,0],
- ['Protector multitoma RHT-06NC','Forza','RHT-06NC','energia','Protección eléctrica',20.10,null,'En stock',['6 salidas giratorias','2160 joules','1800w','120v'],1,1,0],
- ['Protector de voltaje FVP-3302B','Forza','FVP-3302B','energia','Protección eléctrica',14.57,null,'En stock',['3300w','220v','1200 joules','1 salida'],1,1,0],
- ['Protector de voltaje FVP-6630B','Forza','FVP-6630B','energia','Protección eléctrica',16.16,null,'En stock',['6600w','220v','30a','bornera'],1,1,0],
- ['Regleta EZ Power EZP-R001','EZPower','EZP-R001','energia','Protección eléctrica',3.70,null,'En stock',['6 tomas','1875w','cable 1.5m','supresor de picos'],0,1,0],
- ['Regleta de potencia PS-001W x10','Forza','PS-001W-10PCS','energia','Protección eléctrica',36.45,null,'En stock',['10 unidades','6 salidas','110/220v','2200w'],1,1,0]
-];
-const categoryIcons = {
+['Mouse inalámbrico M110','Logitech','GAM-910006','gaming','Mouse',16.9,22.9,'En stock',['silencioso','usb','ergonómico'],1,1,1],
+['Teclado compacto K380','Logitech','GAM-K380','gaming','Teclados',42.5,null,'Últimas unidades',['bluetooth','multidispositivo'],1,1,0],
+['Headset H151 estéreo','Logitech','AUD-H151','audio','Headsets',27.9,34.9,'En stock',['micrófono','3.5mm'],0,0,1],
+['Router Archer C6','TP-Link','CON-ARCHC6','conectividad','Wi-Fi',58.9,69.9,'En stock',['wifi','dual band','gigabit'],1,0,1],
+['Hub USB-C 7 en 1','UGREEN','CON-HUB7','conectividad','Hubs',39.9,null,'En stock',['usb-c','hdmi','lector sd'],1,1,0],
+['Cable USB-C 100W','UGREEN','MOV-100W','movil','Cables',12.5,null,'En stock',['carga rápida','usb-c'],0,1,0],
+['SSD NV3 1TB','Kingston','COM-NV31TB','computacion','Almacenamiento',79.9,96.9,'En stock',['nvme','pcie 4.0','1tb'],1,0,1],
+['Memoria Fury 16GB DDR4','Kingston','COM-FURY16','computacion','Memorias',44.9,null,'Últimas unidades',['ddr4','3200mhz'],0,1,0],
+['Monitor Eye Care 24”','ASUS','COM-VA24','computacion','Monitores',169.9,189.9,'En stock',['24 pulgadas','full hd','ips'],1,0,1],
+['Laptop IdeaPad 15','Lenovo','COM-IP15','computacion','Laptops',649.9,null,'Próximamente',['15 pulgadas','ssd','oficina'],1,1,0],
+['UPS NT-1011 1000VA','Forza','ENE-NT1011','energia','UPS',119.9,null,'En stock',['respaldo','1000va'],1,0,0],
+['Supresor FSP-06','Forza','ENE-FSP06','energia','Supresores',22.9,null,'En stock',['6 tomas','protección'],0,0,0],
+['Audífonos Redmi Buds 6','Xiaomi','AUD-RB6','audio','Audífonos',36.9,44.9,'En stock',['inalámbrico','bluetooth','estuche'],1,1,1],
+['Parlante portátil Mini','Xiaomi','AUD-MINI','audio','Parlantes',29.9,null,'En stock',['bluetooth','portátil'],0,0,0],
+['Cargador GaN 65W','Baseus','MOV-GAN65','movil','Cargadores',34.9,null,'En stock',['65w','usb-c','gan'],1,1,0],
+['Adaptador USB-C a HDMI','UGREEN','CON-HDMI4K','conectividad','Adaptadores',19.9,null,'En stock',['4k','usb-c','hdmi'],0,0,0],
+['Mousepad Control XL','HyperX','GAM-XL01','gaming','Mousepads',21.9,null,'En stock',['xl','antideslizante'],0,0,0],
+['Control inalámbrico Nova','8BitDo','GAM-NOVA','gaming','Controles',49.9,59.9,'En stock',['bluetooth','pc','switch'],1,1,1],
+['Cámara inteligente C200','TP-Link','SH-C200','smart-home','Seguridad',35.9,null,'En stock',['wifi','visión nocturna'],1,0,0],
+['Bombilla Wi-Fi Tapo','TP-Link','SH-L510','smart-home','Iluminación inteligente',15.9,null,'En stock',['wifi','led','domótica'],0,1,0],
+['Regulador automático 1200VA','Forza','ENE-FVR1200','energia','Reguladores',43.9,null,'Agotado',['1200va','protección'],0,0,0],
+['Webcam Full HD C920','Logitech','AUD-C920','audio','Micrófonos',72.9,84.9,'En stock',['full hd','micrófono'],1,0,1],
+['Fuente 650W Bronze','Corsair','COM-CX650','computacion','Fuentes de poder',89.9,null,'Últimas unidades',['650w','80 plus bronze'],0,0,0],
+['Base para laptop ajustable','Nexstand','COM-K2','computacion','Accesorios',28.9,null,'En stock',['aluminio','ergonómica'],0,1,0],
+['Protector de sobretensión FSP-112W','Forza','AU130FOR67','energia','Protección eléctrica',3.33,null,'Agotado',['1 toma','650 joules','110/220v','montaje en pared'],0,1,0],
+['Regleta de potencia PS-001B','Forza','AU140FOR02','energia','Protección eléctrica',3.69,null,'En stock',['6 tomas','2200w','disyuntor','120/240v'],1,1,0],
+['Protector de pared FWT-331USBC','Forza','AU130FOR31','energia','Protección eléctrica',9.03,null,'Agotado',['3 tomas','usb-a','usb-c','490 joules'],0,1,0],
+['Protector con USB FSP-512USBW','Forza','AU130FOR25','energia','Protección eléctrica',12.33,null,'En stock',['5 tomas','2 usb','1200 joules','1540w'],1,1,0],
+['Protector con USB FSP-612USBW','Forza','AU130FOR26','energia','Protección eléctrica',12.72,null,'En stock',['6 tomas','2 usb','1200 joules','1680w'],1,1,0],
+['Protector de voltaje FVP-1201B Pack x2','Forza','FVP-1201B-PACK2','energia','Protección eléctrica',16.54,null,'En stock',['2 unidades','1800w','900 joules','1 salida'],0,1,0],
+['Protector de voltaje FVP-1201B','Forza','FVP-1201B','energia','Protección eléctrica',11.00,null,'En stock',['1800w','900 joules','1 salida','giro 350°'],1,1,0],
+['Protector de voltaje FVP-1201N','Forza','FVP-1201N','energia','Protección eléctrica',11.14,null,'En stock',['1800w','900 joules','1 salida','protección de red'],1,1,0],
+['Protector multitoma RHT-06NC','Forza','RHT-06NC','energia','Protección eléctrica',20.10,null,'En stock',['6 salidas giratorias','2160 joules','1800w','120v'],1,1,0],
+['Protector de voltaje FVP-3302B','Forza','FVP-3302B','energia','Protección eléctrica',14.57,null,'En stock',['3300w','220v','1200 joules','1 salida'],1,1,0],
+['Protector de voltaje FVP-6630B','Forza','FVP-6630B','energia','Protección eléctrica',16.16,null,'En stock',['6600w','220v','30a','bornera'],1,1,0],
+['Regleta EZ Power EZP-R001','EZPower','EZP-R001','energia','Protección eléctrica',3.70,null,'En stock',['6 tomas','1875w','cable 1.5m','supresor de picos'],0,1,0],
+['Regleta de potencia PS-001W x10','Forza','PS-001W-10PCS','energia','Protección eléctrica',36.45,null,'En stock',['10 unidades','6 salidas','110/220v','2200w'],1,1,0]
+].map(row => [
+...row.slice(0, 9),
+Boolean(row[9]),
+Boolean(row[10]),
+Boolean(row[11])
+]);const categoryIcons = {
   'Computación': `
     <svg viewBox="0 0 48 48" aria-hidden="true">
       <rect x="7" y="9" width="34" height="23" rx="3"/>
@@ -265,13 +269,26 @@ const productDetails = {
   }
 };
 
-export const products = rows.map(([name,brand,sku,category,subcategory,price,oldPrice,status,tags,featured,isNew,isOffer]) => {
-  const slug = name
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
+export const products = rows.map(([
+name,
+brand,
+sku,
+category,
+subcategory,
+price,
+oldPrice,
+status,
+tags,
+featured,
+isNew,
+isOffer
+]) => {
+const slug = `${sku}-${name}`
+  .toLowerCase()
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .replace(/[^a-z0-9]+/g, '-')
+  .replace(/^-|-$/g, '');
 
   return {
     name,
@@ -284,13 +301,14 @@ export const products = rows.map(([name,brand,sku,category,subcategory,price,old
     oldPrice,
     status,
     tags,
-    featured,
-    isNew,
-    isOffer,
+ featured: Boolean(featured),
+isNew: Boolean(isNew),
+isOffer: Boolean(isOffer),
     slug,
     images: productImages[sku] || [],
-    image: (productImages[sku] || [])[0] || ''
-  };
+    image:
+(productImages[sku] || [])[0] ||
+'/products/no-image.png'  };
 });
 
 export const brands = [
@@ -310,4 +328,7 @@ export const brands = [
   'EZPower'
 ];
 
+const productsBySlug = Object.fromEntries(
+products.map(product => [product.slug, product])
+);
 export const getProduct = slug => products.find(p => p.slug === slug);

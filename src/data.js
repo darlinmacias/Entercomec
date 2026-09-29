@@ -138,7 +138,7 @@ const rows = [
 ['Laptop IdeaPad 15','Lenovo','COM-IP15','computacion','Laptops',649.9,null,'Próximamente',['15 pulgadas','ssd','oficina'],1,1,0],
 ['UPS NT-1011 1000VA','Forza','ENE-NT1011','energia','UPS',119.9,null,'En stock',['respaldo','1000va'],1,0,0],
 ['Supresor FSP-06','Forza','ENE-FSP06','energia','Supresores',22.9,null,'En stock',['6 tomas','protección'],0,0,0],
-['Audífonos Redmi Buds 6','Xiaomi','AUD-RB6','audio','Audífonos',36.9,44.9,'En stock',['inalámbrico','bluetooth','estuche'],1,1,1],
+['Audífonos Redmi Buds 6 ','Xiaomi','AUD-RB6','audio','Audífonos',36.9,44.9,'En stock',['inalámbrico','bluetooth','estuche'],1,1,1],
 ['Parlante portátil Mini','Xiaomi','AUD-MINI','audio','Parlantes',29.9,null,'En stock',['bluetooth','portátil'],0,0,0],
 ['Cargador GaN 65W','Baseus','MOV-GAN65','movil','Cargadores',34.9,null,'En stock',['65w','usb-c','gan'],1,1,0],
 ['Adaptador USB-C a HDMI','UGREEN','CON-HDMI4K','conectividad','Adaptadores',19.9,null,'En stock',['4k','usb-c','hdmi'],0,0,0],
@@ -150,19 +150,18 @@ const rows = [
 ['Webcam Full HD C920','Logitech','AUD-C920','audio','Micrófonos',72.9,84.9,'En stock',['full hd','micrófono'],1,0,1],
 ['Fuente 650W Bronze','Corsair','COM-CX650','computacion','Fuentes de poder',89.9,null,'Últimas unidades',['650w','80 plus bronze'],0,0,0],
 ['Base para laptop ajustable','Nexstand','COM-K2','computacion','Accesorios',28.9,null,'En stock',['aluminio','ergonómica'],0,1,0],
-['Protector de sobretensión FSP-112W','Forza','AU130FOR67','energia','Protección eléctrica',3.33,null,'Agotado',['1 toma','650 joules','110/220v','montaje en pared'],0,1,0],
+['Protector de sobretensión FSP-112W','Forza','AU130FOR67','energia','Protección eléctrica',9.99,null,'Últimas unidades',['1 toma','650 joules','110/220v','montaje en pared'],0,1,0],
 ['Regleta de potencia PS-001B','Forza','AU140FOR02','energia','Protección eléctrica',3.69,null,'En stock',['6 tomas','2200w','disyuntor','120/240v'],1,1,0],
 ['Protector de pared FWT-331USBC','Forza','AU130FOR31','energia','Protección eléctrica',9.03,null,'Agotado',['3 tomas','usb-a','usb-c','490 joules'],0,1,0],
 ['Protector con USB FSP-512USBW','Forza','AU130FOR25','energia','Protección eléctrica',12.33,null,'En stock',['5 tomas','2 usb','1200 joules','1540w'],1,1,0],
 ['Protector con USB FSP-612USBW','Forza','AU130FOR26','energia','Protección eléctrica',12.72,null,'En stock',['6 tomas','2 usb','1200 joules','1680w'],1,1,0],
-['Protector de voltaje FVP-1201B Pack x2','Forza','FVP-1201B-PACK2','energia','Protección eléctrica',16.54,null,'En stock',['2 unidades','1800w','900 joules','1 salida'],0,1,0],
-['Protector de voltaje FVP-1201B','Forza','FVP-1201B','energia','Protección eléctrica',11.00,null,'En stock',['1800w','900 joules','1 salida','giro 350°'],1,1,0],
-['Protector de voltaje FVP-1201N','Forza','FVP-1201N','energia','Protección eléctrica',11.14,null,'En stock',['1800w','900 joules','1 salida','protección de red'],1,1,0],
+['Protector de voltaje FVP-1201B Pack x2','Forza','FVP-1201B-PACK2','energia','Protección eléctrica',44.99,null,'En stock',['2 unidades','1800w','900 joules','1 salida'],0,1,0],
+['Protector de voltaje FVP-1201B','Forza','FVP-1201B','energia','Protección eléctrica',24.99,null,'En stock',['1800w','900 joules','1 salida','giro 350°'],1,1,0],
+['Protector de voltaje FVP-1201N','Forza','FVP-1201N','energia','Protección eléctrica',14.99,null,'En stock',['1800w','900 joules','1 salida','protección de red'],1,1,0],
 ['Protector multitoma RHT-06NC','Forza','RHT-06NC','energia','Protección eléctrica',20.10,null,'En stock',['6 salidas giratorias','2160 joules','1800w','120v'],1,1,0],
-['Protector de voltaje FVP-3302B','Forza','FVP-3302B','energia','Protección eléctrica',14.57,null,'En stock',['3300w','220v','1200 joules','1 salida'],1,1,0],
+['Protector de voltaje FVP-3302B','Forza','FVP-3302B','energia','Protección eléctrica',24.99,null,'En stock',['3300w','220v','1200 joules','1 salida'],1,1,0],
 ['Protector de voltaje FVP-6630B','Forza','FVP-6630B','energia','Protección eléctrica',16.16,null,'En stock',['6600w','220v','30a','bornera'],1,1,0],
-['Regleta EZ Power EZP-R001','EZPower','EZP-R001','energia','Protección eléctrica',3.70,null,'En stock',['6 tomas','1875w','cable 1.5m','supresor de picos'],0,1,0],
-['Regleta de potencia PS-001W x10','Forza','PS-001W-10PCS','energia','Protección eléctrica',36.45,null,'En stock',['10 unidades','6 salidas','110/220v','2200w'],1,1,0]
+['Regleta EZ Power EZP-R001','EZPower','EZP-R001','energia','Protección eléctrica',6.70,null,'En stock',['6 tomas','1875w','cable 1.5m','supresor de picos'],0,1,0],
 ].map(row => [
 ...row.slice(0, 9),
 Boolean(row[9]),
@@ -267,6 +266,153 @@ const productImages = {
   '/ugrenn-cable-100w/ugreen cable 100w.png',
   '/ugrenn-cable-100w/ugreen cable 100w2.png',
   '/ugrenn-cable-100w/ugreen cable 100w3.png'
+],
+'COM-FURY16': [
+  '/kingnston_ram/kingfury.png',
+  '/kingnston_ram/kingfury2.png',
+  '/kingnston_ram/kingfury3.png'
+],
+'COM-VA24': [
+  '/monito-asus/monasus.png',
+  '/monito-asus/monasus2.png',
+  '/monito-asus/monasus3.png'
+],
+'COM-IP15': [
+  '/lenovo15/lenov15.png',
+  '/lenovo15/lenov15-2.png'
+],
+'COM-CX650': [
+  '/fuente-corsai650/corsa650-1.png',
+  '/fuente-corsai650/corsa650-2.png',
+  '/fuente-corsai650/corsa650-3.png',
+  '/fuente-corsai650/corsa650-4.png'
+],
+'COM-K2': [
+  '/baselaptop/baselap.png'
+],
+'SH-L510': [
+  '/bombilla tapo/bombilla1.png',
+  '/bombilla tapo/bombilla2.png',
+  '/bombilla tapo/bombilla3.png',
+  '/bombilla tapo/bombilla4.png'
+],
+'SH-C200': [
+  '/camara-tapo/tapo1.png',
+  '/camara-tapo/tapo2.png',
+  '/camara-tapo/tapo3.png',
+  '/camara-tapo/tapo4.png'
+],
+'MOV-GAN65': [
+  '/cargador-65-wats/carga1.png',
+  '/cargador-65-wats/carga2.png',
+  '/cargador-65-wats/carga3.png',
+  '/cargador-65-wats/carga4.png'
+],
+'AUD-RB6': [
+  '/xiaomibud6/bud1.png',
+  '/xiaomibud6/bud2.png',
+  '/xiaomibud6/bud3.png'
+],
+'AUD-MINI': [
+  '/parlante-xiaomi-gris/parlant1.png',
+  '/parlante-xiaomi-gris/parlant2.png',
+  '/parlante-xiaomi-gris/parlant3.png',
+  '/parlante-xiaomi-gris/parlant4.png'
+],
+'GAM-XL01': [
+  '/mousepad/pad1.png',
+  '/mousepad/pad2.png',
+  '/mousepad/pad3.png',
+  '/mousepad/pad4.png'
+],
+'GAM-NOVA': [
+  '/jostick/mando1.png'
+],
+'CON-HDMI4K': [
+  '/adaptadorhdmi/adaptad1.png',
+  '/adaptadorhdmi/adaptad2.png',
+  '/adaptadorhdmi/adaptad3.png'
+],
+'AUD-C920': [
+  '/camara-logi-c920/cam1.png',
+  '/camara-logi-c920/cam2.png',
+  '/camara-logi-c920/cam3.png'
+],
+'ENE-NT1011': [
+  '/upsnt-forza/forza1.png',
+  '/upsnt-forza/forza2.png',
+  '/upsnt-forza/forza3.png',
+  '/upsnt-forza/forza4.png'
+],
+'ENE-FSP06': [
+  '/forza-fsp06/fsp1.png',
+  '/forza-fsp06/fsp2.png',
+  '/forza-fsp06/fsp3.png'
+],
+'ENE-FVR1200': [
+  '/regulador-FVR-1200/FVR1.png',
+  '/regulador-FVR-1200/FVR2.png',
+  '/regulador-FVR-1200/FVR3.png'
+],
+'AU130FOR31': [
+  '/protector-pared-fwt33/fwt1.png',
+  '/protector-pared-fwt33/fwt2.png',
+  '/protector-pared-fwt33/fwt3.png',
+  '/protector-pared-fwt33/fwt4.png',
+  '/protector-pared-fwt33/fwt5.png'
+],
+'AU130FOR25': [
+  '/Protector-tensión-fsp512/fsp-1.png',
+  '/Protector-tensión-fsp512/fsp-2.png',
+  '/Protector-tensión-fsp512/fsp-3.png'
+],
+'AU130FOR26': [
+  '/Protector-tensiónfsp-612/FSP-612u1.png',
+  '/Protector-tensiónfsp-612/fsp-612u2.png',
+  '/Protector-tensiónfsp-612/FSP-612u3.png'
+],
+'FVP-1201B-PACK2': [
+  '/Fvp-1201bx2/fvp1.png',
+  '/Fvp-1201bx2/fvp2.png',
+  '/Fvp-1201bx2/fvp3.png',
+  '/Fvp-1201bx2/fvp4.png'
+],
+'FVP-1201B': [
+  '/FVP-1201B/FVP-1201B.1.png',
+  '/FVP-1201B/FVP-1201B.2.png',
+  '/FVP-1201B/FVP-1201B.3.png',
+  '/FVP-1201B/FVP-1201B.4.png',
+  '/FVP-1201B/FVP-1201B.5.png',
+  '/FVP-1201B/FVP-1201B.6.png'
+],
+'FVP-1201N': [
+  '/Protector-fvp1201n/FVP-1201N1.png',
+  '/Protector-fvp1201n/FVP-1201N2.png',
+  '/Protector-fvp1201n/FVP-1201N3.png'
+],
+'RHT-06NC': [
+  '/protector-RHT-06NC/RHT-06NC1.png',
+  '/protector-RHT-06NC/RHT-06NC2.png',
+  '/protector-RHT-06NC/RHT-06NC3.png'
+],
+'FVP-3302B': [
+  '/Protector-FVP-3302B/FVP-3302B1.png',
+  '/Protector-FVP-3302B/FVP-3302B2.png',
+  '/Protector-FVP-3302B/FVP-3302B3.png',
+  '/Protector-FVP-3302B/FVP-3302B4.png'
+],
+'FVP-6630B': [
+  '/zion-FVP-6630B/FVP-6630B1.png',
+  '/zion-FVP-6630B/FVP-6630B2.png',
+  '/zion-FVP-6630B/FVP-6630B3.png'
+],
+'EZP-R001': [
+  '/REGLETA-EZ-POWER/ezpower1.png'
+],
+'AU140FOR02': [
+  '/Regleta-2200W/ps1.png',
+  '/Regleta-2200W/ps2.png',
+  '/Regleta-2200W/ps3.png'
 ],
 };
 const productDetails = {

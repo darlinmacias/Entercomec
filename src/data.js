@@ -168,7 +168,8 @@ const rows = [
 Boolean(row[9]),
 Boolean(row[10]),
 Boolean(row[11])
-]);const categoryIcons = {
+]);
+const categoryIcons = {
   'Computación': `
     <svg viewBox="0 0 48 48" aria-hidden="true">
       <rect x="7" y="9" width="34" height="23" rx="3"/>
@@ -232,7 +233,41 @@ const productImages = {
     '/products/FORZA/fsp112w_4.png',
     '/products/FORZA/fsp112w_5.png',
     '/products/FORZA/fsp112w_6.png'
-  ],
+],
+'GAM-910006': [
+'/mouse-logitech110/mouse110.1.png',
+'/mouse-logitech110/mouse110.2.png',
+'/mouse-logitech110/mouse110.3.png'
+],
+'COM-NV31TB': [
+'/kingnv31tb/nv31tb.png',
+'/kingnv31tb/nv31tb_2.png',
+'/kingnv31tb/nv31tb_3.png'
+],
+'GAM-K380': [
+  '/k380/k380.png.png',
+  '/k380/k380_2.png.png'
+],
+'AUD-H151': [
+  '/Headset-logitech-H151/head151.png',
+  '/Headset-logitech-H151/head151.2.png',
+  '/Headset-logitech-H151/head151.3.png'
+],
+'CON-ARCHC6': [
+  '/tplinkarch6/tplinkarchc6.png',
+  '/tplinkarch6/tplinkarchc6.1.png',
+  '/tplinkarch6/tplinkarchc6.2.png'
+],
+'CON-HUB7': [
+  '/ugrenn-7-1/ugrenn 7.1.png',
+  '/ugrenn-7-1/ugrenn 7.2.png',
+  '/ugrenn-7-1/ugrenn 7.3.png'
+],
+'MOV-100W': [
+  '/ugrenn-cable-100w/ugreen cable 100w.png',
+  '/ugrenn-cable-100w/ugreen cable 100w2.png',
+  '/ugrenn-cable-100w/ugreen cable 100w3.png'
+],
 };
 const productDetails = {
   'AU130FOR67': {

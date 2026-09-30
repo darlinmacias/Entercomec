@@ -1,4 +1,4 @@
-// Catálogo DEMO: reemplazar por el inventario y las imágenes autorizadas de ENTERCOMEC.
+// Catálogo: reemplazar por el inventario y las imágenes autorizadas de ENTERCOMEC.
 export const categories = [
 
   [

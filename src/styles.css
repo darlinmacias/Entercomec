@@ -300,13 +300,18 @@ transform:scale(1.03);
 .product-image span{font-size:68px;color:var(--blue);text-shadow:4px 5px 0 #bfd1f4}
 .product-image small{font:10px 'DM Mono';color:#7d8ba0}.product-body{padding:15px}
 .brand{font:600 10px 'DM Mono';letter-spacing:.5px;color:var(--blue);margin:0 0 6px;text-transform:uppercase}
-.product-body h3{
+.product-card h3{
   font-size:14px;
   font-weight:600;
   line-height:1.4;
   margin:0 0 5px;
-  height:40px;
-}.product-body small{font:10px 'DM Mono';color:var(--muted)}
+  height:80px;
+  overflow:hidden;
+  display:-webkit-box;
+  -webkit-line-clamp:4;
+  -webkit-box-orient:vertical;
+}
+.product-body small{font:10px 'DM Mono';color:var(--muted)}
 .price{margin:13px 0 9px;display:flex;gap:7px;align-items:center}
 .price strong{font-size:17px}.price s{font-size:11px;color:var(--muted)}
 .price em{font:700 10px 'DM Mono';font-style:normal;color:#dd3f42}

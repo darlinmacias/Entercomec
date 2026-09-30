@@ -11,6 +11,7 @@ export const categories = [
     [
       'Laptops',
       'PCs',
+      'Computadoras de escritorio',
       'Monitores',
       'Componentes',
       'Memorias',
@@ -162,6 +163,11 @@ const rows = [
 ['Protector de voltaje FVP-3302B','Forza','FVP-3302B','energia','Protección eléctrica',24.99,null,'En stock',['3300w','220v','1200 joules','1 salida'],1,1,0],
 ['Protector de voltaje FVP-6630B','Forza','FVP-6630B','energia','Protección eléctrica',16.16,null,'En stock',['6600w','220v','30a','bornera'],1,1,0],
 ['Regleta EZ Power EZP-R001','EZPower','EZP-R001','energia','Protección eléctrica',6.70,null,'En stock',['6 tomas','1875w','cable 1.5m','supresor de picos'],0,1,0],
+['Computador PC ASUS Intel Core i5-14400 2.50GHz - 16GB - 512GB SSD - 750W 80+ Bronze - FreeDOS','ASUS','AP514D100','computacion','Computadoras de escritorio',956.51,null,'En stock',['Intel Core i5-14400','16GB','512GB SSD','750W','80+ Bronze','FreeDOS'],0,1,0],
+['Computador PC XTRATECH AMD R7 5700G 3.80GHz - 8GB - 1TB SSD - Teclado + Mouse - FreeDOS','XTRATECH','XTR7BC700','computacion','Computadoras de escritorio',739.12,null,'En stock',['AMD Ryzen 7 5700G','8GB','1TB SSD','Teclado','Mouse','FreeDOS'],0,1,0],
+['Computador PC XTRATECH Intel Core i7-12700 2.10GHz - 8GB - 1TB SSD - Teclado + Mouse - FreeDOS','XTRATECH','XTI7C700','computacion','Computadoras de escritorio',869.56,null,'En stock',['Intel Core i7-12700','8GB','1TB SSD','Teclado','Mouse','FreeDOS'],0,1,0],
+['Computador PC XTRATECH Intel Core i7-12700 2.10GHz - 8GB - 512GB SSD - Teclado + Mouse - FreeDOS','XTRATECH','XTI7C500','computacion','Computadoras de escritorio',782.60,null,'En stock',['Intel Core i7-12700','8GB','512GB SSD','Teclado','Mouse','FreeDOS'],0,1,0],
+['Computador PC XTRATECH Intel Ultra 7 265 5.30GHz - 16GB DDR5 - 1TB SSD - 650W 80+ Bronze - Windows 11 Home','XTRATECH','XTU753F65D1-W11','computacion','Computadoras de escritorio',1130.43,null,'En stock',['Intel Ultra 7 265','16GB DDR5','1TB SSD','650W','80+ Bronze','Windows 11 Home'],0,1,0],
 ].map(row => [
 ...row.slice(0, 9),
 Boolean(row[9]),
@@ -413,6 +419,34 @@ const productImages = {
   '/Regleta-2200W/ps1.png',
   '/Regleta-2200W/ps2.png',
   '/Regleta-2200W/ps3.png'
+],
+'AP514D100': [
+  '/computadoras/ap514d100/asusi5.png'
+],
+'AP514D100': [
+  '/computadoras/ap514d100/asusi5.png'
+],
+
+'XTI7C500': [
+  '/computadoras/xti7c500/xtechci7.png',
+  '/computadoras/xti7c500/xtechci71.png',
+  '/computadoras/xti7c500/xtechci72.png'
+],
+
+'XTI7C700': [
+  '/computadoras/xti7c700/xtechci71tb.png',
+  '/computadoras/xti7c700/xtechci711tb1.png',
+  '/computadoras/xti7c700/xtechci721tb2.png'
+],
+
+'XTR7BC700': [
+  '/computadoras/xtr7bc700/xtechci7am4.png',
+  '/computadoras/xtr7bc700/xtechci7lam41.png',
+  '/computadoras/xtr7bc700/xtechci7am42.png'
+],
+
+'XTU753F65D1-W11': [
+  '/computadoras/xtu753f65d1-w11/xtechultra7.png'
 ],
 };
 const productDetails = {

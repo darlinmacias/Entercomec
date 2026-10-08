@@ -114,25 +114,24 @@ function hero(){
   return `
   <section class="hero-slider" aria-label="Promociones destacadas">
 
-    <div class="hero-slide hero-slide-1">
-    <img src="/banners/forza-1.png" alt="Banner Forza">
+<div class="hero-slide hero-slide-1">
+  <img src="/banners/HomeMainSlider-Desk.jpg" alt="Banner Entercomec">
 </div>
 
-    <div class="hero-slide hero-slide-2">
-    <img src="/banners/forza-2.jpg" alt="Banner Forza">
+<div class="hero-slide hero-slide-2">
+  <img src="/banners/Banner-top-DK_SPA-FVP-1201-3PK.jpg" alt="Banner Forza">
 </div>
 
-    <div class="hero-slide hero-slide-3">
-   <img src="/banners/klip-3.jpg" alt="Banner Klip">
+<div class="hero-slide hero-slide-3">
+  <img src="/banners/banner-ezz-power.jpg" alt="Banner EZ Power">
 </div>
 
-    <div class="hero-dots">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-
-  </section>`;
+<div class="hero-dots">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+</section>`;
 }
 const section=(title,desc,items,more)=>`<section class="section"><div class="section-title"><div><p class="eyebrow">ENTERCOMEC</p><h2>${title}</h2>${desc?`<p>${desc}</p>`:''}</div>${more||''}</div><div class="product-grid">${items.map(productCard).join('')}</div></section>`;
 function home(){

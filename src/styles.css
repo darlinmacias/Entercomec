@@ -1226,3 +1226,100 @@ transform:translateY(-2px) scale(1.08);
     max-width: 90px;
   }
 }
+
+
+
+/* ===== BANNERS APPLE Y ANDROID ===== */
+
+.phone-promos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  width: min(1400px, calc(100% - 40px));
+  margin: 36px auto 48px;
+}
+
+.phone-promo {
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+  line-height: 0;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+}
+
+.phone-promo:hover {
+  transform: translateY(-3px);
+}
+
+.phone-promo-content {
+  display: none;
+}
+
+.phone-promo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 760px) {
+  .phone-promos {
+    width: calc(100% - 24px);
+    gap: 14px;
+    margin: 24px auto 32px;
+  }
+
+  .phone-promo {
+    border-radius: 10px;
+  }
+}
+
+/* ===== IPHONE DESTACADOS DEBAJO DE LOS BANNERS ===== */
+
+.phone-promos + .section .product-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.phone-promos + .section .product-card {
+  height: 100%;
+}
+
+.phone-promos + .section .product-image {
+  height: 260px;
+}
+
+.phone-promos + .section .product-card h3 {
+  height: auto;
+  min-height: 40px;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .phone-promos + .section .product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .phone-promos + .section .product-image {
+    height: 210px;
+  }
+}
+
+/* Móviles */
+@media (max-width: 640px) {
+  .phone-promos + .section .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .phone-promos + .section .product-image {
+    height: 155px;
+  }
+}

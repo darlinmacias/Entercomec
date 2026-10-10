@@ -169,32 +169,23 @@ const rows = [
 ['Computador PC XTRATECH Intel Core i7-12700 2.10GHz - 8GB - 512GB SSD - Teclado + Mouse - FreeDOS','XTRATECH','XTI7C500','computacion','Computadoras de escritorio',782.60,null,'En stock',['Intel Core i7-12700','8GB','512GB SSD','Teclado','Mouse','FreeDOS'],0,1,0],
 ['Computador PC XTRATECH Intel Ultra 7 265 5.30GHz - 16GB DDR5 - 1TB SSD - 650W 80+ Bronze - Windows 11 Home','XTRATECH','XTU753F65D1-W11','computacion','Computadoras de escritorio',1130.43,null,'En stock',['Intel Ultra 7 265','16GB DDR5','1TB SSD','650W','80+ Bronze','Windows 11 Home'],0,1,0],
 ['Base de carga inalámbrica magnética Klip Xtreme KDC-010', 'Klip Xtreme', 'AB300KLX67', 'movil', 'Cargadores', 8.99, null, 'En stock', ['wireless', 'magnética', 'anillo magnético', 'qig'], 1, 1, 0],
-
   ['Cargador de coche Klip Xtreme KCC-060 de 3 puertos', 'Klip Xtreme', 'AB300KLX37', 'movil', 'Cargadores', 11.99, null, 'En stock', ['car', 'cargador de coche', '3 puertos', 'qig'], 1, 1, 0],
-
   ['Batería externa magnética Klip Xtreme KPB-350', 'Klip Xtreme', 'AC400KLX08', 'movil', 'Cargadores', 17.99, null, 'En stock', ['power bank', 'magnética', 'litio-polímero', 'carga rápida', 'anillo magnético'], 1, 1, 0],
-
   ['Cargador de coche Klip Xtreme KCC-100 de 6 puertos', 'Klip Xtreme', 'AB300KLX38', 'movil', 'Cargadores', 18.99, null, 'En stock', ['car', 'cargador de coche', '6 puertos', 'qig'], 1, 1, 0],
-
   ['Adaptador universal de viaje Klip Xtreme KMC-350', 'Klip Xtreme', 'AB300KLX73', 'energia', 'Protección eléctrica', 29.99, null, 'En stock', ['wall', '2500'], 1, 1, 0],
-
   ['Cargador y soporte magnético inalámbrico Klip Xtreme KCW-250', 'Klip Xtreme', 'AB300KLX72', 'movil', 'Accesorios', 19.99, null, 'En stock', ['wireless', 'magnético', 'cargador inalámbrico', 'soporte', 'usb'], 1, 1, 0],
-
   ['Cargador de pared Klip Xtreme KMC-490', 'Klip Xtreme', 'AB300KLX70', 'movil', 'Cargadores', 22.99, null, 'En stock', ['wall', 'cargador de pared'], 1, 1, 0],
-
   ['Cargador y soporte inalámbrico Klip Xtreme KCW-505 15W', 'Klip Xtreme', 'AB300KLX66', 'movil', 'Accesorios', 24.99, null, 'En stock', ['wireless', '15w', 'soporte', 'cargador inalámbrico'], 1, 1, 0],
-
   ['Cargador de coche Klip Xtreme KCC-140 140W', 'Klip Xtreme', 'AB300KLX39', 'movil', 'Cargadores', 26.99, null, 'En stock', ['car', '140w', 'adaptador de corriente'], 1, 1, 0],
-
   ['Soporte para teléfono con carga inalámbrica Klip Xtreme KCW-515', 'Klip Xtreme', 'AB300KLX69', 'movil', 'Accesorios', 29.99, null, 'En stock', ['wireless', 'carga inalámbrica', 'soporte', 'ventosa', 'usb-c'], 1, 1, 0],
-
   ['Base de carga Klip Xtreme PowerDesk Ultra KDC-700', 'Klip Xtreme', 'AB300KLX42', 'movil', 'Cargadores', 39.99, null, 'En stock', ['wireless', 'PowerDesk Ultra', 'base de carga'], 1, 1, 0],
-
   ['Batería externa Klip Xtreme KPB-800', 'Klip Xtreme', 'AC400KLX13', 'movil', 'Cargadores', 52.99, null, 'En stock', ['power bank', 'batería externa', 'usb-c', 'litio-polímero'], 1, 1, 0],
-
   ['Batería externa Klip Xtreme KPB-850', 'Klip Xtreme', 'AC400KLX10', 'movil', 'Cargadores', 59.99, null, 'En stock', ['power bank', 'batería externa', 'usb-c', 'litio-polímero', 'carga rápida'], 1, 1, 0],
-
-  ['Batería externa Klip Xtreme KPB-900', 'Klip Xtreme', 'AC400KLX11', 'movil', 'Cargadores', 89.99, null, 'En stock', ['power bank', 'batería externa', 'usb-c', 'litio-polímero'], 1, 1, 0]
+  ['Batería externa Klip Xtreme KPB-900', 'Klip Xtreme', 'AC400KLX11', 'movil', 'Cargadores', 89.99, null, 'En stock', ['power bank', 'batería externa', 'usb-c', 'litio-polímero'], 1, 1, 0],
+['Apple iPhone 17 Pro 256GB 5G Deep Blue', 'Apple', 'MG7M4LL-A', 'movil', 'Celulares', 1449.99, null, 'Consultar disponibilidad', ['iPhone 17 Pro', '256GB', '5G', 'Deep Blue'], 1, 1, 0],  
+['Apple iPhone 17 Pro Max 256GB Silver', 'Apple', 'MFXG4LL-A', 'movil', 'Celulares', 1599.99, null, 'Consultar disponibilidad', ['iPhone 17 Pro Max', '256GB', '5G', 'Silver'], 1, 1, 0],
+['Apple iPhone 17 Pro Max 512GB Deep Blue', 'Apple', 'MFYU4BEA', 'movil', 'Celulares', 1859.99, null, 'Consultar disponibilidad', ['iPhone 17 Pro Max', '512GB', '5G', 'Deep Blue'], 1, 1, 0]
+  
 ].map(row => [
 ...row.slice(0, 9),
 Boolean(row[9]),
@@ -543,6 +534,25 @@ const productImages = {
 
 'AC400KLX13': [
   '/klipxtreme/AC400KLX13/klipbank1.png'
+],
+
+'MG7M4LL-A': [
+  '/iphon17/ipho17.png',
+  '/iphon17/ipho17-1.png',
+  '/iphon17/ipho17-2.png'
+],
+
+
+'MFXG4LL-A': [
+  '/iphon17silver/iphone17sil1.png',
+  '/iphon17silver/iphone17sil2.png',
+  '/iphon17silver/iphone17sil3.png'
+],
+
+'MFYU4BEA': [
+  '/iphone17blue/iphone171.png',
+  '/iphone17blue/iphone172.png',
+  '/iphone17blue/iphone173.png'
 ],
 };
 const productDetails = {

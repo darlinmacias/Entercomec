@@ -137,6 +137,7 @@ const section=(title,desc,items,more)=>`<section class="section"><div class="sec
 function home(){
   return `
     ${hero()}
+    
 
     <section class="section category-section">
       <div class="section-title">
@@ -178,6 +179,24 @@ function home(){
       products.filter(p => p.isNew).slice(0,4),
       link('/nuevos','Ver nuevos','text-link')
     )}
+<section class="phone-promos">
+
+  <a href="/categoria/movil" data-nav class="phone-promo apple-promo">
+    <img src="/banners/celulares-apple.png" alt="Banner Apple con iPhone, AirPods y Apple Watch">
+  </a>
+${section(
+  'iPhone destacados',
+  'Descubre los últimos modelos de Apple.',
+  products.filter(p =>
+    ['MG7M4LL-A', 'MFXG4LL-A', 'MFYU4BEA'].includes(p.sku)
+  ),
+  link('/categoria/movil', 'Ver celulares', 'text-link')
+)}
+  <a href="/categoria/movil" data-nav class="phone-promo android-promo">
+    <img src="/banners/celulares-android.png" alt="Banner Android con smartphones">
+  </a>
+</section>
+<section class="section category-section">
 
     <section class="benefits">
       <div>
